@@ -146,7 +146,7 @@ module.exports = {
             const newAdmin = new Admin({
                 name: args.adminInput.name,
                 email: args.adminInput.email,
-                phoneNumber: args.supervisorInput.phoneNumber,
+                phoneNumber: args.adminInput.phoneNumber,
                 password: hashedPassword,
                 dateJoined: new Date().toString(),
                 dateLastLogin: new Date().toString()
