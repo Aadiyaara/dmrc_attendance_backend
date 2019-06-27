@@ -50,7 +50,6 @@ module.exports = buildSchema(`
     }
 
     input AttendanceInput {
-        id: ID!
         date: String!
         gpsLoc: String!
         labourId: String!
