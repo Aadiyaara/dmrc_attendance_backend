@@ -70,7 +70,7 @@ module.exports = buildSchema(`
         supervisors: [Supervisor!]!
         admin: Admin!
         supervisorById(supervisorId: String!): Supervisor!
-        attendanceByDateAndSupervisorId: [Attendance!]
+        attendanceByDateAndSupervisorId(date: String!, supervisorId: String!): [Attendance!]
     }
     
     type RootMutation {
